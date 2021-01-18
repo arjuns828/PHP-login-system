@@ -1,3 +1,9 @@
+<?php
+    // allow the config file
+    define('__CONFIG__',TRUE);
+    // require the config file
+    require_once "Inc/config.php";
+?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -15,37 +21,13 @@
   <body>
 
   	<div class="uk-section uk-container">
-  		<div class="uk-grid uk-child-width-1-3@s uk-child-width-1-1" uk-grid>
-			<form class="uk-form-stacked js-login">
 
-			    <div class="uk-margin">
-			        <label class="uk-form-label" for="form-stacked-text">Email</label>
-			        <div class="uk-form-controls">
-			            <input class="uk-input" id="form-stacked-text" type="email" required='required' placeholder="email@email.com">
-			        </div>
-			    </div>
+    <a href="php_login_course/PHP-login-system/Login.php">Login</a>
+    <a href="php_login_course/PHP-login-system/Register.php">Register</a>
 
-			    <div class="uk-margin">
-			        <label class="uk-form-label" for="form-stacked-text">Password</label>
-			        <div class="uk-form-controls">
-			            <input class="uk-input" id="form-stacked-text" type="password" required='required' placeholder="Your Password">
-			        </div>
-			    </div>
+    </div>
 
-			    <div class="uk-margin">
-			        <button class="uk-button uk-button-default" type="submit">Login</button>
-			    </div>
-
-			</form>
-  		</div>
-  	</div>
-
-    <!-- jQuery is required -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
-    <!-- UIkit JS -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.24/js/uikit.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.24/js/uikit-icons.min.js"></script>
-
+    <?php require_once "Inc/footer.php"; ?>
+    
   </body>
 </html>
