@@ -45,7 +45,7 @@
 			</form>
 </div>
     
-    <?php require_once "Inc/footer.php"; ?>
+    <?php require_once "../PHP-login-system/Inc/footer.php"; ?>
     
   </body>
 </html>
