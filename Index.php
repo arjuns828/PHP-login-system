@@ -22,12 +22,12 @@
 
   	<div class="uk-section uk-container">
 
-    <a href="php_login_course/PHP-login-system/Login.php">Login</a>
-    <a href="php_login_course/PHP-login-system/Register.php">Register</a>
+    <a href="../PHP-login-system/Login.php">Login</a>
+    <a href="../PHP-login-system/Register.php">Register</a>
 
     </div>
 
-    <?php require_once "Inc/footer.php"; ?>
+    <?php require_once "../PHP-login-system/Inc/footer.php"; ?>
     
   </body>
 </html>
